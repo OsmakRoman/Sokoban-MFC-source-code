@@ -1,0 +1,248 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// русский resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)\r\n"
+    "LANGUAGE 25, 1\r\n"
+    "#pragma code_page(1251)\r\n"
+    "#include ""res\\Sokoban.rc2""  // ресурсы, не редактируемые в Microsoft Visual C++\r\n"
+    "#include ""l.RUS\\afxres.rc""      // Стандартные компоненты\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Sokoban.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SOKOBAN_DIALOG DIALOGEX 0, 0, 534, 259
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "SOKOBAN MFC version"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "ОК",IDOK,351,210,50,14,NOT WS_VISIBLE | NOT WS_TABSTOP
+    PUSHBUTTON      "Отмена",IDCANCEL,351,233,50,14,NOT WS_VISIBLE | NOT WS_TABSTOP
+    PUSHBUTTON      "Button1",IDC_BUTTON1,445,141,39,36,BS_ICON | NOT WS_TABSTOP
+    PUSHBUTTON      "Button1",IDC_BUTTON2,405,176,39,36,BS_ICON | NOT WS_TABSTOP
+    PUSHBUTTON      "Button1",IDC_BUTTON3,485,176,39,36,BS_ICON | NOT WS_TABSTOP
+    PUSHBUTTON      "Button1",IDC_BUTTON4,445,211,39,36,BS_ICON | NOT WS_TABSTOP
+    PUSHBUTTON      "Button5",IDC_BUTTON5,407,109,56,15,BS_ICON | NOT WS_TABSTOP
+    PUSHBUTTON      "Button6",IDC_BUTTON6,467,109,56,15,BS_ICON | NOT WS_TABSTOP
+    PUSHBUTTON      "Button7",IDC_BUTTON7,467,91,56,15,BS_ICON | NOT WS_TABSTOP
+END
+
+IDD_DIALOG1 DIALOGEX 0, 0, 431, 35
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Choose Level"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "ОК",IDOK,303,10,56,15,BS_ICON | NOT WS_TABSTOP
+    PUSHBUTTON      "Отмена",IDCANCEL,366,10,56,15,BS_ICON
+    CONTROL         "",IDC_SLIDER1,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,6,8,251,25
+END
+
+IDD_DIALOG2 DIALOGEX 0, 0, 138, 58
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Reset Level"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "ОК",IDOK,9,35,57,15,BS_ICON
+    PUSHBUTTON      "Отмена",IDCANCEL,72,35,56,15,BS_ICON
+END
+
+IDD_DIALOG3 DIALOGEX 0, 0, 138, 58
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Level Completed"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "ОК",IDOK,40,37,57,15,BS_ICON
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041904e3"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Название организации>"
+            VALUE "FileDescription", "TODO: <Описание файла>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "Sokoban.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Название организации>. Все права защищены."
+            VALUE "OriginalFilename", "Sokoban.exe"
+            VALUE "ProductName", "TODO: <Название продукта>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x419, 1251
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_SOKOBAN_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        VERTGUIDE, 401
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        RIGHTMARGIN, 428
+        VERTGUIDE, 38
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        RIGHTMARGIN, 133
+        BOTTOMMARGIN, 50
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP2             BITMAP                  "res\\up.bmp"
+IDB_BITMAP3             BITMAP                  "res\\left.bmp"
+IDB_BITMAP4             BITMAP                  "res\\right.bmp"
+IDB_BITMAP5             BITMAP                  "res\\down.bmp"
+IDB_BITMAP6             BITMAP                  "res\\logo.bmp"
+IDB_BITMAP7             BITMAP                  "res\\choose.bmp"
+IDB_BITMAP8             BITMAP                  "res\\undo.bmp"
+IDB_BITMAP9             BITMAP                  "res\\reset.bmp"
+IDB_BITMAP10            BITMAP                  "res\\Digits\\level.bmp"
+IDB_DIGIT0              BITMAP                  "res\\Digits\\0.bmp"
+IDB_DIGIT1              BITMAP                  "res\\Digits\\1.bmp"
+IDB_DIGIT2              BITMAP                  "res\\Digits\\2.bmp"
+IDB_DIGIT3              BITMAP                  "res\\Digits\\3.bmp"
+IDB_DIGIT4              BITMAP                  "res\\Digits\\4.bmp"
+IDB_DIGIT5              BITMAP                  "res\\Digits\\5.bmp"
+IDB_DIGIT6              BITMAP                  "res\\Digits\\6.bmp"
+IDB_DIGIT7              BITMAP                  "res\\Digits\\7.bmp"
+IDB_DIGIT8              BITMAP                  "res\\Digits\\8.bmp"
+IDB_DIGIT9              BITMAP                  "res\\Digits\\9.bmp"
+IDB_BITMAP11            BITMAP                  "res\\ok.bmp"
+IDB_BITMAP12            BITMAP                  "res\\cancel.bmp"
+IDB_BITMAP13            BITMAP                  "res\\reset level.bmp"
+IDB_BITMAP14            BITMAP                  "res\\yes.bmp"
+IDB_BITMAP15            BITMAP                  "res\\no.bmp"
+IDB_BITMAP16            BITMAP                  "res\\congratulations.bmp"
+IDB_BITMAP17            BITMAP                  "res\\completed.bmp"
+#endif    // русский resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE 25, 1
+#pragma code_page(1251)
+#include "res\Sokoban.rc2"  // ресурсы, не редактируемые в Microsoft Visual C++
+#include "l.RUS\afxres.rc"      // Стандартные компоненты
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
